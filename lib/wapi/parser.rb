@@ -5,6 +5,6 @@ require 'wapi/parsers/waves'
 require 'wapi/parsers/wind'
 
 module Wapi
-	module ConditionParser
-	end
+  module ConditionParser
+  end
 end

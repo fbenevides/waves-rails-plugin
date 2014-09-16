@@ -13,9 +13,9 @@ module Wapi
   	  @html = Nokogiri::HTML(open(beach_url))
     end
 
-  	def conditions
+  	def check
       conditions = {}
-      
+
       ConditionParser::constants.each do |constant|
           conditions[constant.downcase] = ConditionParser.const_get(constant).extract(@html)
       end

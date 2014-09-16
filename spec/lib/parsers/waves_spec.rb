@@ -7,7 +7,7 @@ describe Wapi::ConditionParser::Waves do
   	end
 
   	it 'should parse wave size' do
- 	  expect(@waves[:size]).to eql '0.5 m'
+ 	    expect(@waves[:size]).to eql '0.5 m'
   	end
 
   	it 'should parse wave quality' do

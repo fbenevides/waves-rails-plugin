@@ -5,7 +5,7 @@ describe Wapi::Report do
   end
 
   it 'should parse all conditions' do
-  	conditions = @api.conditions
+  	conditions = @api.check
 
   	expect(conditions[:name]).to eql 'Praia do Vizinho - Fortaleza (CE)'
 
