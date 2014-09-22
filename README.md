@@ -1,6 +1,7 @@
 # Waves Rails plugin
 A plugin to extract informations about the waves conditions in Brazil.
 
+[![Build Status](https://travis-ci.org/fbenevides/waves-rails-plugin.svg?branch=master)](https://travis-ci.org/fbenevides/waves-rails-plugin)
 
 # Usage
 In your Gemfile:
