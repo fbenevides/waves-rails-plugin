@@ -1,8 +1,7 @@
-llanguage: ruby
+language: ruby
 cache: bundler
-
 rvm:
-	- ruby
-	- 2.1.1
+  - ruby
+  - 2.1.1
 
 script: bundle exec rspec
