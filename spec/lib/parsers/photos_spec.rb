@@ -1,6 +1,6 @@
 describe Wapi::ConditionParser::Photos do
   context 'when html is valid' do
-  	before :all do
+    before :all do
   	  url = File.dirname(__FILE__) + "/Waves.html"
       @api = Wapi::Report.new("", url)
   	end
