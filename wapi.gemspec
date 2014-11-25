@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.description = "Extracting Waves information easily."
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["spec/**/*"]
 
   s.required_ruby_version = '>= 2.1.1'
