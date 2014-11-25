@@ -1,7 +1,9 @@
 .DS_Store
 .bundle/
+.vagrant/
 log/*.log
 pkg/
+tmp/
 coverage/
 cookbooks/
 Gemfile.lock

@@ -21,10 +21,9 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.1.1'
 
-  s.add_dependency "rails", "~> 4.1.1"
   s.add_dependency "nokogiri"
 
-  s.add_development_dependency "rspec-rails"
+  s.add_development_dependency "rspec"
   s.add_development_dependency "simplecov"
   s.add_development_dependency "codeclimate-test-reporter"
 end
