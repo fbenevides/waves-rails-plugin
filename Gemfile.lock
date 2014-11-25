@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     wapi (1.0.0)
-      nokogiri
+      nokogiri (~> 1.6)
 
 GEM
   remote: https://rubygems.org/
@@ -37,7 +37,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  codeclimate-test-reporter
-  rspec
-  simplecov
+  codeclimate-test-reporter (~> 0.4)
+  rspec (~> 3.1)
+  simplecov (~> 0.9)
   wapi!

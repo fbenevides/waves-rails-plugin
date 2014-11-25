@@ -10,13 +10,12 @@ A plugin to extract informations about the waves conditions in Brazil.
 # Usage
 In your Gemfile:
 ```
-gem 'wapi', git: 'git@github.com:fbenevides/waves-rails-plugin.git', branch: 'master'
+gem 'wapi'
 ```
 
 Retrieving all conditions of a surf spot:
 ```
-conditions = Wapi::Report.check('/ceara/caucaia/icarai')
-
+conditions = Wapi::Report.new('/ceara/caucaia/icarai').check
 conditions[:name] # Icaraí - Caucaia (CE)
 ```
 

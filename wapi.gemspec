@@ -1,4 +1,5 @@
-$:.push File.expand_path("../lib", __FILE__)
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 # Maintain your gem's version:
 require "wapi/version"
@@ -21,9 +22,9 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.1.1'
 
-  s.add_dependency "nokogiri"
+  s.add_runtime_dependency "nokogiri", '~> 1.6'
 
-  s.add_development_dependency "rspec"
-  s.add_development_dependency "simplecov"
-  s.add_development_dependency "codeclimate-test-reporter"
+  s.add_development_dependency "rspec", "~> 3.1"
+  s.add_development_dependency "simplecov", "~> 0.9"
+  s.add_development_dependency "codeclimate-test-reporter", "~> 0.4"
 end
