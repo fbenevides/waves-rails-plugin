@@ -5,7 +5,7 @@ require 'open-uri'
 module Wapi
   class Report
     attr_reader :html
-
+    
     WAVES_URL = 'http://waves.terra.com.br/surf/ondas'
 
     def initialize(beach, url=WAVES_URL)
