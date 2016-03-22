@@ -5,8 +5,6 @@ A plugin to extract informations about the waves conditions in Brazil.
 
 [![Code Climate](https://codeclimate.com/github/fbenevides/waves-rails-plugin/badges/gpa.svg)](https://codeclimate.com/github/fbenevides/waves-rails-plugin)
 
-[![Test Coverage](https://codeclimate.com/github/fbenevides/waves-rails-plugin/badges/coverage.svg)](https://codeclimate.com/github/fbenevides/waves-rails-plugin)
-
 # Usage
 In your Gemfile:
 ```
